@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - print if generated number is 0, positive or negative
+ * main - Start of program
  * Return: 0
  */
 int main(void)
@@ -19,11 +19,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is negative\n", n);
-	}
-	else
-	{
 		printf("%d is zero\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
 	}
 
 	return (0);
