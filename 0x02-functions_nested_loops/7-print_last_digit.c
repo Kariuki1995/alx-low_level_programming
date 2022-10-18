@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,11 +9,17 @@
 
 int print_last_digit(int n)
 {
-	int last digit = n % 10;
+	int last digit;
 
-	if (last digit < 0)
-		last digit *= -1;
+	if (n < 0)
+	{
+		last digit = (n % 10) * -1;
+	}
+	else
+	{
+		last digit = num % 10;
+	}
 	_putchar(last digit + '0');
 
-	return (0);
+	return (last digit);
 }
