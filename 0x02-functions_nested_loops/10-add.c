@@ -1,10 +1,10 @@
-#include "main.h'
+#include "main.h"
 
 /**
- * addition - adds two numbers
- * @c: the first number
- * @d: the second number
- * Return: the sum of both numbers
+ * add - adds two numbers
+ * @c: first parameter of the add function
+ * @d: second parameter of the add function
+ * Return: the sum of two integers
  */
 
 int add(int c, int d)
@@ -13,4 +13,3 @@ int add(int c, int d)
 
 	return (sum);
 }
-
