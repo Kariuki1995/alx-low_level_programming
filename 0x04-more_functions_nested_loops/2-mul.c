@@ -4,13 +4,11 @@
  * mul - multiplies two integers
  * @c: first integer
  * @d: second integer
- * Return: returns the product of two integers
+ * Return: Returns the product of two integers
  */
 
-int mul(int a, int b)
+int mul(int c, int d)
 {
-	int mult;
-
 	int mult = c * d;
 
 	return (mult);
