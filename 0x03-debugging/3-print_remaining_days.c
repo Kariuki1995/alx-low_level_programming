@@ -2,17 +2,17 @@
 #include "main.h"
 
 /**
- * print_remaining_days - prints number of days left in a year,leap yaer
+ * print_remaining_days - prints number of days left in a year,leap year
  * @month: month in number format
  * @day: day of month
- * @year: shows year
+ * @year: year
  * Return: void
  */
 void print_remaining_days(int month, int day, int year)
 {
 	if (year % 4 == 0 || (year % 400 == 0 && year % 100 == 0))
 	{
-		if (month > 2 && day >= 60)
+		if (month >= 3 && day >= 60)
 		{
 			day++;
 		}
