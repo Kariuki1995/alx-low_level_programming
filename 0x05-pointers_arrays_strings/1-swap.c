@@ -2,8 +2,8 @@
 
 /**
  * swap_int - swaps the values of two integers
- * @c: first integer
- * @d: second integer
+ * @a: first integer
+ * @b: second integer
  */
 
 void swap_int(int *a, int *b)
