@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char password [10];
+	char password[10];
 	char num[] = "0123456789";
 	int num_length = strlen(num);
 	char symb[] = "!@#$%^&*()";
