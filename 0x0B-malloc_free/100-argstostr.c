@@ -2,7 +2,7 @@
 
 /**
  * argstostr - concatenates all the arguments of your program
- * @c: count of the arguments
+ * @ac: count of the arguments
  * @av: arguments of your program
  * Return: returns NULL
  */
