@@ -30,12 +30,12 @@ char *str_concat(char *s1, char *s2)
 	if (strcon == NULL)
 		return (NULL);
 
-	while (i < s1length);
+	while (i < s1length)
 	{
 		strcon[i] = s1[i];
 		i++;
 	}
-	while (j < s2length);
+	while (j < s2length)
 	{
 		strcon[i] = s2[j];
 		i++;
