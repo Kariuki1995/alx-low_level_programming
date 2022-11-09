@@ -3,7 +3,7 @@
 /**
  * _strdup - allocates space in memory
  * @str: string to be copied
- * Return: returns NULL
+ * Return: returns NULL if str is NULL
  */
 
 char *_strdup(char *str)
