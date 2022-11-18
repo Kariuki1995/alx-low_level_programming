@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - print numbers
- * @separator - separates the numbers
+ * @separator: - separates the numbers
  * @n: number of integers to be printed
  */
 
