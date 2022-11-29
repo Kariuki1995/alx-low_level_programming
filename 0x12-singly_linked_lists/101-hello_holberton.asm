@@ -11,4 +11,4 @@ main:
 	mov rdi, 0
 	syscall
 section .data:
-	msg db "Hello, Holberton", 0×A
+	msg db "Hello, Holberton", 0xA
