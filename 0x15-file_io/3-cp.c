@@ -11,8 +11,8 @@
 void error_handler(int exit_code, char *message, char type, ...)
 {
 	va_list args;
-	va_start(args, type);
 
+	va_start(args, type);
 	if (type == 's')
 		dprintf(STDERR_FILENO, message, va_arg(args, char *));
 	else if (type == 'd')
